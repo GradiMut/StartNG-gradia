@@ -24,3 +24,108 @@ body{
 .footer{
     margin-top: 50px;
 }
+
+.btn {
+    padding: 20px;
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 5px;
+    background-color: #ffffff;
+    float: right;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn i{
+    color: blue;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow:  auto;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.modal-content {
+    background-color:  #c5d32c;;
+    margin: 15px auto;
+    padding: 20px;
+    border:  1px solid #888;
+background: #fff;
+box-shadow: 0 0 3px #000;
+margin: 30px auto;
+max-width: 500px;
+}
+
+
+
+.forms {
+    
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+
+.forms form {
+    padding: 30px;
+}
+
+.forms input {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: blue;
+    border-radius: 0;
+    margin-bottom: 10px;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.forms textarea {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color:blue;
+    border-radius: 0;
+    margin-bottom: 10px;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.forms .button {
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:blue;
+    color: #ffffff;
+    cursor: pointer;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
