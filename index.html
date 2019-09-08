@@ -319,7 +319,7 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <div class="forms">
-                <form action="#" id="contact-form">
+                <form action="./index.php" method="POST" id="contact-form">
                     <div class="input-field">
                 
                         <input pattern="[a-zA-Z\s]*" type="name" name="name" required class="form-control" placeholder="John Doe" minlength="4"/>
@@ -332,7 +332,7 @@
                             placeholder="Type your message here"></textarea>
                         <br><br>
                 
-                        <input type="submit" value="CONTACT ME NOW" class="button" />
+                        <input type="submit" value="CONTACT ME NOW" name="send" class="button" />
                     </div>
                 </form>
             </div>
